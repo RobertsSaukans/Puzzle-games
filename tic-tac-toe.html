@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title>Puzzle Games</title>
+</head>
+<body>
+<header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tic-tac-toe.html"><img class="tic-tac-toe" src="tic-tac-toe.png"></a></li>
+        <li><a href="connect-four.html"><img class="connect-four" src="connect-four.png"></a></li>
+    </ul>
+</nav>
+<div id="gamemode">
+    Choose the gamemode!
+    <button id="singlePlayerbtn">Single Player</button>
+    <button id="twoPlayerbtn">Two Player </button>
+</div>
+<div id="return">
+    <button id="returnbtn">Return</button>
+    <span id="diff">Choose the difficulty level!</span>
+</div>
+<div id="levels">
+    <button id="level1">Regular</button>
+    <button id="level2">Hard</button>
+    <button id="level3">Impossible</button>
+</div>
+<div id="twoPlayerMode">
+    <p id="textbtn">Player 1, pick your position!</p>
+</div>
+<div id="retryBlock">
+    <button id="retrybtn">Retry</button>
+</div>
+</header>
+
+<main>
+    <div id="board">
+        <button id="btn1"></button>
+        <button id="btn2"></button>
+        <button id="btn3"></button>
+        <button id="btn4"></button>
+        <button id="btn5"></button>
+        <button id="btn6"></button>
+        <button id="btn7"></button>
+        <button id="btn8"></button>
+        <button id="btn9"></button>
+    </div>
+</main>
+<footer>
+    <div id="score">
+        <p id="scoreText">Wins: 0 Ties: 0 Losses: 0</p>
+    </div>
+    <div id="score2">
+        <p id="scoreText2">Player 1: 0 Player 2: 0 Ties: 0</p>
+    </div>
+</footer>
+</body>
+</html>

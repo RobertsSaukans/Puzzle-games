@@ -1,0 +1,449 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #757575;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.mainPage {
+    display: inline;
+}
+
+ul.list {
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+ul.list li {
+    padding: 10px;
+}
+
+button#readmore, button#readmore2{
+    font-size: 30px;
+    background-color: #757575;
+    border: none;
+}
+
+button#readmore:hover, button#readmore2:hover{
+    color: #1a2185;
+    cursor: pointer;
+}
+
+div#info, div#info2 {
+    width: 1300px;
+    display: none;
+}
+
+div#info p, div#info2 p {
+    background-color: #686868;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+div#info a, div#info2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div#info a:hover, div#info2 a:hover {
+    color: #1a2185;
+}
+
+p.textParagraph {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+h1.welcome {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #000000;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #427992;
+}
+
+nav ul li a img:hover {
+    outline: #427992;
+    opacity: 60%;
+}
+
+.tic-tac-toe{
+    width: 80px;
+}
+
+.connect-four {
+    width: 80px;
+}
+
+#retryBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#return {
+    display: flex;               /* Use flex layout */
+    align-items: center;         /* Vertically center items */
+    justify-content: center;     /* Center content by default */
+    position: relative;          /* For absolute positioning of button */
+    margin-bottom: 20px;
+}
+
+#returnbtn {
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 120px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background-color: #3ebfd6;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;          /* Stick to the left edge */
+    left: 0;
+    cursor: pointer;
+}
+
+#returnbtn:hover {
+    background-color: #3195a7;
+}
+
+#retrybtn {
+    width: 130px;
+    height: 65px;
+    font-size: 45px;
+    border: 2px solid #000;
+    background-color: #43d63e;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#retrybtn:hover {
+    background-color: #37ac33;
+}
+
+div#gamemode, div#score{
+    text-align: center;
+    font-size:70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div#score{
+    text-align: center;
+    font-size:50px;
+}
+
+#gamemode button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#singlePlayerbtn {
+    background-color: red;
+}
+
+#singlePlayerbtn:hover {
+    background-color: #b90101;
+}
+
+#twoPlayerbtn {
+    background-color: rgb(0, 102, 255);
+}
+
+#twoPlayerbtn:hover {
+    background-color: rgb(0, 85, 212);
+}
+
+#gamemode button:hover {
+    cursor: pointer;
+}
+
+#diff {
+    text-align: center;
+    font-size:70px;
+    margin-top: 10px;
+}
+
+#level1 {
+    background-color: #58d838;
+}
+
+#level1:hover {
+    background-color: #4abd2d;
+}
+
+#level2 {
+    background-color: #e0eb4d;
+}
+
+#level2:hover {
+    background-color: #b4bd3e;
+}
+
+#level3 {
+    background-color: #ff0000;
+}
+
+#level3:hover {
+    background-color: #b90101;
+}
+
+#levels button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#levels button:hover {
+    cursor: pointer;
+}
+
+p#textbtn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+    color: rgb(0, 0, 0);
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 470px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#board button {
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#board button:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+/* */
+
+.container {
+    text-align: center;
+}
+
+p#statusText {
+    text-align: center;
+    font-size:70px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#mode-selection {
+    margin-bottom: 20px;
+}
+
+#mode-selection button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+  
+#singlePlayerBtn {
+    background-color: red;
+}
+
+#singlePlayerBtn:hover {
+    background-color: #b90101;
+}
+
+#twoPlayerBtn {
+    background-color: rgb(0, 102, 255);
+}
+
+#twoPlayerBtn:hover {
+    background-color: rgb(0, 85, 212);
+}
+
+#mode-selection button:hover {
+    cursor: pointer;
+}
+
+#retryBtn {
+    width: 120px;
+    height: 60px;
+    font-size: 40px;
+    border: 2px solid #000;
+    background-color: #43d63e;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+#retryBtn:hover {
+    background-color: #37ac33;
+}
+
+#returnDiv {
+    display: flex;               /* Use flex layout */
+    align-items: center;         /* Vertically center items */
+    justify-content: center;     /* Center content by default */
+    position: relative;          /* For absolute positioning of button */
+    margin-bottom: 20px;
+}
+
+#returnBtn {
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 120px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid #000;
+    background-color: #3ebfd6;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;          /* Stick to the left edge */
+    left: 0;
+    cursor: pointer;
+}
+
+#returnBtn:hover {
+    background-color: #3195a7;
+}
+
+#level-selection  {
+    display: none;
+}
+
+#level-selection button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    border-radius: 10px;
+}
+
+#levels-selection button:hover {
+    cursor: pointer;
+}
+
+div#score2{
+    text-align: center;
+    font-size:50px;
+}
+
+#level-1 {
+    background-color: #58d838;
+}
+
+#level-1:hover {
+    background-color: #4abd2d;
+}
+
+#level-2 {
+    background-color: #e0eb4d;
+}
+
+#level-2:hover {
+    background-color: #b4bd3e;
+}
+
+#level-3 {
+    background-color: #ff0000;
+}
+
+#level-3:hover {
+    background-color: #b90101;
+}
+
+div#level-selection button:hover {
+    cursor: pointer;
+}
+  
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-gap: 28px;
+    grid-row-gap: 7px;
+    justify-content: center;
+    margin: 20px auto;
+}
+  
+.cell {
+    width: 70px;
+    height: 70px;
+    background-color: #2563eb; /* Blue background for board */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cell.win {
+    border: 3px solid black;    /* highlight winning cells */
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  }
+  
+.cell.red {
+    background-color: red;
+}
+  
+.cell.yellow {
+    background-color: yellow;
+}
+
+button.hidden {
+    display: none;
+}
